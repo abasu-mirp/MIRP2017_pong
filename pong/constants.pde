@@ -1,7 +1,7 @@
 // Display Size
 int displayWidth=500, displayHeight=500;
 
-// Velocity Cnstants
+// Velocity Constants
 float BALL_VELOCITY = 20; //This is the MAX speed of the ball.
 float PADDLE_VELOCITY = 10;
 
