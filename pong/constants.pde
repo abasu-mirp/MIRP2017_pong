@@ -1,23 +1,23 @@
 // Display Size
-int displayWidth=500, displayHeight=500;
+int displayWidth=500, displayHeight=500;     String Pong ="PONG";
 
 // Velocity Constants
-float BALL_VELOCITY = 20; //This is the MAX speed of the ball.
+float BALL_VELOCITY = 10; //This is the MAX speed of the ball.
 float PADDLE_VELOCITY = 10;
 
 // Background Color
-int bgColor = 0;
+int bgColor =100;
 
 // Ball parameters
 float ballX, ballY;
-float ballVx, ballVy; // ballVx is always BALL_VELOCTY or -BALL_VELOCITY; ballVy varies.
-float ballRadius = 10;
-int ballColor = 255;
+float ballVx=5, ballVy=2; // ballVx is always BALL_VELOCTY or -BALL_VELOCITY; ballVy varies.
+float ballRadius = 15;
+float ballColor = 100;
 
 // Y - position of Left and Right paddles
 float leftPaddle=displayHeight/2, rightPaddle=displayHeight/2;
 // Paddle Dimensions
-float paddleLength = 180, paddleWidth = 20;
+float paddleLength = 160, paddleWidth = 20;
 int paddleColor = 255;
 
 // Score Variables
